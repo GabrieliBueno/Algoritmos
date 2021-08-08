@@ -1,0 +1,35 @@
+Var
+
+fab, dist, imp, final: real
+
+
+
+
+
+Inicio
+
+escreval ("Digite o custo de fábrica do carro novo")
+
+
+
+leia (fab)
+
+
+
+imp <-fab + (fab * 0.45)
+
+
+
+dist <- (fab * 0.28)
+
+
+
+final <- fab + (imp + dist + fab)
+
+
+
+escreval ("O custo final do carro será de:", final)
+
+
+
+Fimalgoritmo
