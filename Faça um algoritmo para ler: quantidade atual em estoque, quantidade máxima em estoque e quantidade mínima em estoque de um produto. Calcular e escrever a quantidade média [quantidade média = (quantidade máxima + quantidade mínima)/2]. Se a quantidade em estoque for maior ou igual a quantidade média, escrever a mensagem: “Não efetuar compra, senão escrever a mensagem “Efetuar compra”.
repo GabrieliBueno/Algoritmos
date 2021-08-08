@@ -1,0 +1,57 @@
+Inicio
+
+
+
+Escreva ("Digite o valor atual do estoque")
+
+
+
+Leia (atual)
+
+
+
+Escreva ("Digite a quantidade máxima do estoque")
+
+
+
+Leia (maximo)
+
+
+
+Escreva ("Digite a quantia mínima do estoque")
+
+
+
+Leia (minimo)
+
+
+
+media <- (maximo + minimo) / 2
+
+
+
+Escreval ("Sua média é:" , media)
+
+
+
+Se atual >= media então
+
+
+
+Escreval ("Não efetuar compra!")
+
+
+
+Senão
+
+
+
+Escreval ("Efetuar comprar!")
+
+
+
+fimse
+
+
+
+Fimalgoritmo
