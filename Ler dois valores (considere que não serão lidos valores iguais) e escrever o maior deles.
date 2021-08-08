@@ -1,0 +1,53 @@
+Algoritmo "maior_valor_de_dois_numeros"
+
+//  
+
+//  
+
+
+
+Var n1: real
+
+    n2: real
+
+
+
+
+
+Inicio
+
+
+
+Escreva ("Digite o primeiro número")
+
+
+
+Leia (n1)
+
+
+
+Escreva ("Digite o segundo número")
+
+
+
+Leia (n2)
+
+
+
+Se n1 < n2 então
+
+escreval ("O primeiro número é menor que o segundo número")
+
+
+
+Senão então
+
+escreval ("O primeiro número é maior que o segundo número")
+
+
+
+Fimse
+
+
+
+fimalgoritmo
