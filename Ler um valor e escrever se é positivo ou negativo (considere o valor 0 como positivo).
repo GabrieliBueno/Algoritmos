@@ -1,0 +1,39 @@
+Var n1: real
+
+
+
+
+
+Inicio
+
+
+
+Escreval ("Digite um número")
+
+
+
+Leia (n1)
+
+
+
+Se n1 < 0 então
+
+
+
+Escreval ("Seu número é negativo!")
+
+
+
+Senão
+
+
+
+escreva ("Seu número é positivo!")
+
+
+
+fimse
+
+
+
+Fimalgoritmo
