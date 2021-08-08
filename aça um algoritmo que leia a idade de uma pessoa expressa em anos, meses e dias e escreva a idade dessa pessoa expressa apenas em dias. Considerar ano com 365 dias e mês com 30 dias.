@@ -1,0 +1,41 @@
+Var anos, meses, dias, x: inteiro
+
+
+
+Inicio
+
+
+
+Escreval ("Escreva a sua idade em anos")
+
+
+
+Leia (anos)
+
+
+
+Escreval ("Escreva a sua idade em meses")
+
+
+
+Leia (meses)
+
+
+
+Escreval ("Escreva a sua idade me dias")
+
+
+
+Leia (dias)
+
+
+
+X <- (dias + (anos * 365) + (meses * 30))
+
+
+
+Escreval ("Sua idade em dias é:", X)
+
+
+
+Fimalgoritmo
