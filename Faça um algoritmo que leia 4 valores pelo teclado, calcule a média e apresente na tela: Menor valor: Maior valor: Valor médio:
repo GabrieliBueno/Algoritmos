@@ -1,0 +1,135 @@
+Var
+
+n1, n2, n3, n4, media, maior, menor: real
+
+
+
+
+
+Inicio
+
+escreval ("Digite um número")
+
+
+
+leia (n1)
+
+
+
+maior <- n1
+
+
+
+menor <- n1
+
+
+
+escreval ("Escreva outro número")
+
+
+
+leia (n2)
+
+
+
+se (n2 < menor) então
+
+
+
+menor <- n2
+
+
+
+fimse
+
+
+
+se (n2 > maior) então
+
+
+
+maior <- n2
+
+
+
+fimse
+
+
+
+escreval ("Digite mais um número")
+
+
+
+leia (n3)
+
+
+
+se (n3 < menor) então
+
+
+
+menor <- n3
+
+
+
+fimse
+
+
+
+se (n3 > maior) então
+
+
+
+maior <- n3
+
+
+
+fimse
+
+
+
+escreval ("Escreva mais um número (o último)")
+
+
+
+leia (n4)
+
+
+
+se (n4 < menor) então
+
+
+
+menor <- n4
+
+
+
+se (n4 > maior) então
+
+
+
+maior <- n4
+
+fimse
+
+
+
+media <- ((n1 + n2 + n3 + n4) / 4)
+
+
+
+escreval ("Maior valor:", maior)
+
+
+
+escreval ("Menor valor:", menor)
+
+
+
+escreval ("Valor médio:", media)
+
+fimse
+
+
+
+Fimalgoritmo
